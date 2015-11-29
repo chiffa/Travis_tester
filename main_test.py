@@ -1,6 +1,6 @@
 import unittest
 
-class my_test(unittest.TestCase):
+class MyTest(unittest.TestCase):
 
   def a_test(self):
     self.assertTrue(True)
