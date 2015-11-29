@@ -24,7 +24,7 @@ install:
     - conda create -q -n test-environment python=$TRAVIS_PYTHON_VERSION numpy scipy matplotlib
     - source activate test-environment
     - conda install python=$TRAVIS_PYTHON_VERSION atlas numpy scipy matplotlib cython
-    - conda install python=$TRAVIS_PYTHON_VERSION coveralls pylint
+    - conda install python=$TRAVIS_PYTHON_VERSION coverage pylint
     - pip install -r requirements.txt
 
 script:
